@@ -18,7 +18,7 @@ html {
 
 .masthead,
 .footer {
-  background-color: #663300;
+  background-color: #533A25;
   color: #fff;
 }
 
@@ -28,16 +28,20 @@ html {
   border-bottom: .1em solid;
 }
 
+h2 {
+  color: #533A25;
+}
+
 .btn {
-  color: #663300;
-  background-color: #cc9966;
+  color: #533A25;
+  background-color: #DBBF9C;
   border: .20em solid;
-  border-color: #663300;
+  border-color: #533A25;
 }
 
 .card {
-  background-color: #cc9966;
+  background-color: #DBBF9C;
   border: 3px solid;
-  border-color: #663300;
+  border-color: #533A25;
   border-radius: .5em;
 }
