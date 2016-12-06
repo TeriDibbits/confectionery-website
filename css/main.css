@@ -29,15 +29,15 @@ html {
 }
 
 .btn {
-  color: #fff;
-  background-color: #663300;
-  border: none;
+  color: #663300;
+  background-color: #cc9966;
+  border: .20em solid;
+  border-color: #663300;
 }
 
 .card {
-  background-color: #fff;
+  background-color: #cc9966;
   border: 3px solid;
   border-color: #663300;
   border-radius: .5em;
-  width: 12em;
 }
