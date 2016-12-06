@@ -22,6 +22,10 @@ html {
   color: #fff;
 }
 
+h1 {
+  font-family: 'Molle', cursive;
+}
+
 .nav a {
   color: #fff;
   text-decoration: none;
