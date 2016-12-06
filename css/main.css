@@ -28,7 +28,7 @@ html {
   border-bottom: .1em solid;
 }
 
-h2 {
+h2, h3, p {
   color: #533A25;
 }
 
