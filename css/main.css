@@ -60,6 +60,14 @@ h3 {
   border-radius: .5em;
 }
 
+.card:hover {
+  background-color: #533A25;
+}
+
+.card:hover h2 {
+  color: #fff;
+}
+
 nav {
   display: inline-block;
 }
