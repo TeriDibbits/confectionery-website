@@ -37,12 +37,13 @@ h1 {
   border-bottom: .1em solid;
 }
 
-h2, h3, p, h5 {
+h2, p, h5 {
   color: #533A25;
 }
 
 h3 {
-  background-color: #DBBF9C;
+  color: #fff;
+  background-color: #533A25;
 }
 
 .btn {
@@ -108,4 +109,15 @@ h5 {
   background-color: #DBBF9C;
 }
 
-@media only screen and (min-width: 60em)
+@media only screen and (min-width: 60em) {
+  body {
+    max-width: 50em;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  body {
+    max-width: 60em;
+  }
+}
