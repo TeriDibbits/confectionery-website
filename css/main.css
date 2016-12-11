@@ -22,6 +22,10 @@ html {
   color: #fff;
 }
 
+.nav a:hover {
+  color: #DBBF9C;
+}
+
 h1 {
   display: inline-block;
   font-family: 'Molle', cursive;
@@ -33,7 +37,7 @@ h1 {
   border-bottom: .1em solid;
 }
 
-h2, h3, p {
+h2, h3, p, h5 {
   color: #533A25;
 }
 
@@ -99,3 +103,9 @@ nav {
 h5 {
   font-family: 'Molle', cursive;
 }
+
+.form-background {
+  background-color: #DBBF9C;
+}
+
+@media only screen and (min-width: 60em)
