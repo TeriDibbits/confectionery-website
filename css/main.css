@@ -68,6 +68,30 @@ h3 {
   color: #fff;
 }
 
+.card:hover .icon-white {
+  display: inline-block;
+}
+
+.card:hover .icon {
+  display: none;
+}
+
+.icon-white {
+  display: none;
+  position: relative;
+  background: transparent none no-repeat center center;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.icon-white img {
+  left: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
 nav {
   display: inline-block;
 }
