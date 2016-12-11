@@ -23,6 +23,7 @@ html {
 }
 
 h1 {
+  display: inline-block;
   font-family: 'Molle', cursive;
 }
 
@@ -34,6 +35,10 @@ h1 {
 
 h2, h3, p {
   color: #533A25;
+}
+
+h3 {
+  background-color: #DBBF9C;
 }
 
 .btn {
@@ -53,4 +58,12 @@ h2, h3, p {
   border: 3px solid;
   border-color: #533A25;
   border-radius: .5em;
+}
+
+nav {
+  display: inline-block;
+}
+
+h5 {
+  font-family: 'Molle', cursive;
 }
