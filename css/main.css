@@ -35,6 +35,10 @@ h1 {
   font-family: 'Molle', cursive;
 }
 
+a {
+  text-decoration: none;
+}
+
 .nav a {
   color: #fff;
   text-decoration: none;
@@ -130,6 +134,6 @@ h5 {
 
 @media only screen and (min-width: 90em) {
   body {
-    max-width: 60em;
+    max-width: 55em;
   }
 }

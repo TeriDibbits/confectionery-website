@@ -17,116 +17,116 @@
     <li><a href="#nav">Jump to main content</a></li>
   </ul>
 
-  <header class="masthead grid grid-middle island-1-2">
+  <header role="banner" class="masthead grid grid-middle island-1-2">
     <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 text-center">
       <h1 class="pad-t-1-2 push-1-2 yotta">Coco's Chocolatiers</h1>
     </div>
-    <nav class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 text-center">
+    <nav role="navigation" id="nav" class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 text-center">
       <ol class="nav list-group-inline push-1-2">
-        <li class="push-1-4"><a href="">Chocolate</a></li>
-        <li class="push-1-4"><a href="">Treats</a></li>
-        <li class="push-1-4"><a href="">Specials</a></li>
-        <li class="push-1-4"><a href="">Owner</a></li>
-        <li class="push-1-4"><a href="">Order</a></li>
+        <li class="push-1-4"><a href="#chocolate">Chocolate</a></li>
+        <li class="push-1-4"><a href="#treats">Treats</a></li>
+        <li class="push-1-4"><a href="#specials">Specials</a></li>
+        <li class="push-1-4"><a href="#owner">Owner</a></li>
+        <li class="push-1-4"><a href="#form">Order</a></li>
       </ol>
     </nav>
   </header>
 
-  <main>
+  <main role="main" id="main">
     <section class="relative push-1-2">
       <div class="embed embed-3by1">
-        <img class="embed-item img-flex" src="images/www/images/banner.jpg" alt="">
+        <img class="embed-item img-flex" src="images/www/images/banner.jpg" alt="chocolate-beans">
       </div>
       <div class="unit xs-1 text-center absolute pin-bc pad-b-2">
-        <button class="btn mega" type="">Place Order</button>
+        <a href="#form"><button class="btn mega">Place Order</button></a>
       </div>
     </section>
 
     <div class="grid island grid-middle">
       <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 text-center push-1-2 gutter-1-4">
-        <a class="card block island-1-2">
+        <a href="#chocolate" class="card block island-1-2">
           <h2 class="push-1-2">Chocolate</h2>
           <i class="icon i-64 push-1-2">
-            <img src="images/www/images/chocolate.svg" alt="#">
+            <img src="images/www/images/chocolate.svg" alt="chocolates">
           </i>
           <i class="icon-white i-64 push-1-2">
-            <img src="images/www/images/chocolate-white.svg" alt="#">
+            <img src="images/www/images/chocolate-white.svg" alt="chocolate">
           </i>
         </a>
       </div>
       <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 text-center push-1-2 gutter-1-4">
-        <a class="card block island-1-2">
+        <a href="#treats" class="card block island-1-2">
           <h2 class="push-1-2">Treats</h2>
           <i class="icon i-64 push-1-2">
-            <img src="images/www/images/treats.svg" alt="#">
+            <img src="images/www/images/treats.svg" alt="cookie">
           </i>
           <i class="icon-white i-64 push-1-2">
-            <img src="images/www/images/treats-white.svg" alt="#">
+            <img src="images/www/images/treats-white.svg" alt="cookie">
           </i>
         </a>
       </div>
       <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 text-center push-1-2 gutter-1-4">
-        <a class="card block island-1-2">
+        <a href="#specials" class="card block island-1-2">
           <h2 class="push-1-2">Specials</h2>
           <i class="icon i-64 push-1-2">
-            <img src="images/www/images/specials.svg" alt="#">
+            <img src="images/www/images/specials.svg" alt="special-wrapped-chocolate">
           </i>
           <i class="icon-white i-64 push-1-2">
-            <img src="images/www/images/specials-white.svg" alt="#">
+            <img src="images/www/images/specials-white.svg" alt="special-wrapped-chocolate">
           </i>
         </a>
       </div>
     </div>
 
     <div>
-      <section class="grid push">
+      <section id="chocolate" class="grid push">
         <h3 class="unit xs-1 s-1 m-1 l-1 xl-1 island-1-2">Chocolate</h3>
         <div class="unit xs-1 s-1 m-1 l-1 xl-1">
           <div class="grid gutter-1-2">
-            <p class="unit xs-1 s-1 m-1-2 l-1-2 xl-1">Our chocolate is a divine, delicious, creamy delight that will melt in your mouth. Our chocolate is produced with the finest Theobroma Cacao seeds. Roasted and ground to perfection with a twist of vanilla.</p>
+            <p id="#delicious-chocolate" class="unit xs-1 s-1 m-1-2 l-1-2 xl-1">Our chocolate is a divine, delicious, creamy delight that will melt in your mouth. Our chocolate is produced with the finest Theobroma Cacao seeds. Roasted and ground to perfection with a twist of vanilla.</p>
             <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-              <img class="img-flex"src="images/www/images/chocolate.jpg" alt="">
+              <img class="img-flex"src="images/www/images/chocolate.jpg" alt="decorative-chocolates" aria-describedat="#delicious-chocolate">
             </div>
           </div>
         </div>
       </section>
-      <section class="grid push">
+      <section id="treats" class="grid push">
         <h3 class="unit xs-1 s-1 m-1 l-1 xl-1 island-1-2">Treats</h3>
         <div class="unit xs-1 s-1 m-1 l-1 xl-1 island-1-2">
           <div class="grid gutter-1-2">
-            <p class="unit xs-1 s-1 m-1-2 l-1-2 xl-1">We not only specialize in chocolates of all kinds; we offer a large selection of treats for events and gatherings of all kinds. Let us cater to your needs and make a platter of your dreams.</p>
+            <p id="#one-of-many-treats" class="unit xs-1 s-1 m-1-2 l-1-2 xl-1">We not only specialize in chocolates of all kinds; we offer a large selection of treats for events and gatherings of all kinds. Let us cater to your needs and make a platter of your dreams.</p>
             <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-              <img class="img-flex" src="images/www/images/treats.jpg" alt="">
+              <img class="img-flex" src="images/www/images/treats.jpg" alt="cupcake" aria-describedat="#one-of-many-treats">
             </div>
           </div>
         </div>
       </section>
-      <section class="grid push">
+      <section id="specials" class="grid push">
         <h3 class="unit xs-1 s-1 m-1 l-1 xl-1 island-1-2">Specials</h3>
         <div class="unit xs-1 s-1 m-1 l-1 xl-1 island-1-2">
           <div class="grid gutter-1-2">
-            <p class="unit xs-1 s-1 m-1-2 l-1-2 xl-1">Come check out our daily specials. Everyday fresh, flavourful delights are made especially for you. We offer great deals that make your day better. Stop in for a bite that will leave you satisfied.</p>
+            <p id="#different-specials" class="unit xs-1 s-1 m-1-2 l-1-2 xl-1">Come check out our daily specials. Everyday fresh, flavourful delights are made especially for you. We offer great deals that make your day better. Stop in for a bite that will leave you satisfied.</p>
             <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-              <img class="img-flex" src="images/www/images/specials.jpg" alt="">
+              <img class="img-flex" src="images/www/images/specials.jpg" alt="crispy-chocolate-treat" aria-describedat="#different-specials">
             </div>
           </div>
         </div>
       </section>
-      <section class="grid push">
+      <section id="owner" class="grid push">
         <h3 class="unit xs-1 s-1 m-1 l-1 xl-1 island-1-2">About the Owner</h3>
         <div class="unit xs-1 s-1 m-1 l-1 xl-1 island-1-2">
           <div class="grid gutter-1-2">
             <h4 class="unit xs-1 s-1 m-1 l-1 xl-1">Tyrone Wallas</h4>
-            <p class="unit xs-1 s-1 m-1-2 l-1-2 xl-1">Tyrone Wallas inherited Coco's Chocolatiers from his father and continues to make the company prosper and thrive. His love, passion, and drive come from love for spreading happy cheer. His favorite time of the year is the Christmas season, when people give and the joy that is recieved.</p>
+            <p id="#tyrone-wallas" class="unit xs-1 s-1 m-1-2 l-1-2 xl-1">Tyrone Wallas inherited Coco's Chocolatiers from his father and continues to make the company prosper and thrive. His love, passion, and drive come from love for spreading happy cheer. His favorite time of the year is the Christmas season, when people give and the joy that is recieved.</p>
             <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-              <img class="img-flex" src="images/www/images/owner.jpg" alt="">
+              <img class="img-flex" src="images/www/images/owner.jpg" alt="picture-of-tyrone" aria-describedat="#tyrone-wallas">
             </div>
           </div>
         </div>
       </section>
     </div>
 
-    <section class="form-background">
+    <section id="form" class="form-background">
       <div class="max-length island">
         <h5 class="exa">Order Form</h5>
 
@@ -155,7 +155,7 @@
 
   </main>
 
-  <footer class="footer">
+  <footer role="contentinfo" class="footer">
     <div class="max-length island-1-2">
       <small class="block island-1-2">© Coco's Chocolatiers</small>
     </div>
