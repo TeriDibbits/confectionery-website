@@ -22,6 +22,17 @@ html {
   color: #fff;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: .1em solid;
+}
+
 .nav a:hover {
   color: #dbbf9c;
 }
@@ -33,17 +44,6 @@ main {
 h1 {
   display: inline-block;
   font-family: Molle, cursive;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.nav a {
-  color: #fff;
-  text-decoration: none;
-  border-bottom: .1em solid;
 }
 
 h2, p, h5 {
@@ -82,20 +82,20 @@ h3 {
   color: #fff;
 }
 
-.card:hover .icon-white {
-  display: inline-block;
-}
-
-.card:hover .icon {
-  display: none;
-}
-
 .icon-white {
   display: none;
   position: relative;
   background: transparent none no-repeat center center;
   background-size: contain;
   vertical-align: middle;
+}
+
+.card:hover .icon-white {
+  display: inline-block;
+}
+
+.card:hover .icon {
+  display: none;
 }
 
 .icon-white img {
